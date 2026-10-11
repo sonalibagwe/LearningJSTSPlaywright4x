@@ -1,8 +1,20 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build & Dependency Artifacts
+target/
+*.class
 node_modules/
-.env
-.env.*
-!.env.example
-playwright-report/
-test-results/
-blob-report/
-playwright/.cache/
+dist/
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+
+# Logs & Reports
+logs/
+*.log
+reports/ExecutionReport_*.html
+reports/screenshots/
