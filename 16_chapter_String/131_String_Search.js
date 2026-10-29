@@ -1,0 +1,19 @@
+// Searching & Checking
+
+let url = "https://staging.vwo.com/api/login?retry=true";
+// includes()
+url.includes("staging");
+url.includes("production");
+
+// startWith / endsWith
+console.log(url.startsWith("https"));       //true
+console.log(url.startsWith("http://"));     //false
+console.log(url.endsWith("true"));          //true
+
+// indexOf / lastIndexOf
+console.log(url.indexOf("a"));          //10
+console.log(url.lastIndexOf("a"));      //24
+console.log(url.indexOf("nothere"));    //-1
+
+
+//ASCII - > A -> 65
